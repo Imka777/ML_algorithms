@@ -1,9 +1,6 @@
 import numpy as np
 
 class KMeans:
-    def __init__(self):
-        return self
-
     def RandomInitilization(self, X, k):
         self.Centers = X[np.random.choice(len(X), k)]
 
